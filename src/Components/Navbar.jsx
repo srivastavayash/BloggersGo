@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { fav } from '../assets/images';
 const Navbar = () => (
   <nav className='flex justify-between bg-gradient-to-r from-cyan-500 to-blue-500'>
     <div className='flex flex-row items-center'>
-      <img src="../src/fav.png" alt="bloggersGo-icon" />
+      <img src={fav} alt="bloggersGo-icon" />
       <span className="font-bold text-white cursor-pointer">BlogggersGo</span>
     </div>
     <div className='flex'>
